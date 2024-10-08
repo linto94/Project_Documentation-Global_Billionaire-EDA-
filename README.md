@@ -349,7 +349,22 @@ The dataset contains detailed information on the world's billionaires, focusing 
                            'Malaysia', 'Netherlands', 'New Zealand', 'Norway',
                            'Poland', 'Turkey', 'Ukraine');
    
-   
+   5. **Econimic Impact**
+      * How do economic indicators like CPI, GDP, and life expectancy relate to billionaire wealth in each country? : Was also done in Excel
+      * Is there a pattern between countries with higher tax rates and the number of billionaires?
+         ```sql
+         -- Count the number of billionaires by tax rate classification
+         SELECT taxrate_classification, COUNT(*) AS Billionaire_Count
+         FROM billionaire_data
+         GROUP BY taxrate_classification;
+
+      * Is there a significant difference in wealth between billionaires from countries with higher tax rates and those from countries with lower tax rates?
+         ```sql
+         -- Calculate the total wealth of billionaires by tax rate classification
+         SELECT taxrate_classification, SUM(finalWorth) AS Billionaire_Worth
+         FROM billionaire_data
+         GROUP BY taxrate_classification;
+
    
    
    
