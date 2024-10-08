@@ -65,9 +65,23 @@ The dataset contains detailed information on the world's billionaires, focusing 
       SELECT *
       FROM demographics_info
       WHERE age = -5 OR age = -4;
+      
+   ![18](https://github.com/user-attachments/assets/55d04d3a-6386-4237-8079-38fc56d2fc4c)
+   
+   ![18a](https://github.com/user-attachments/assets/82900b27-4a82-4877-b75f-9fcf9797e8ab)
+   
+   ![19](https://github.com/user-attachments/assets/6480189e-24cf-450c-aebe-05365f13d1ae)
+   
+   ![19a](https://github.com/user-attachments/assets/cdabeec2-4ef3-4551-a22c-a7e7c961e758)
 
 
 2. **Data Transformation**
+   1. Remove unwanted columns not needed for the analysis
+      ```sql
+      -- Delete the category variable from the table as it is the same as industries
+      ALTER TABLE demographics_info
+      DROP COLUMN category;
+
    
 
 
