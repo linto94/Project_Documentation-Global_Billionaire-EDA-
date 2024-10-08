@@ -140,8 +140,7 @@ The dataset contains detailed information on the world's billionaires, focusing 
              WHEN MONTH(birthDate) = 12 THEN 'December'
              ELSE 'Unknown'
          END;
-   
-         ```sql
+
          -- Add a new column to classify young self-made billionaires
          ALTER TABLE billionaire_data
          ADD young_selfmade VARCHAR(255);
