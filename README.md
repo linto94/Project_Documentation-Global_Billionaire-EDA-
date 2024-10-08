@@ -76,13 +76,40 @@ The dataset contains detailed information on the world's billionaires, focusing 
 
 
 2. **Data Transformation**
-   1. Remove unwanted columns not needed for the analysis
+   1. **Remove unwanted columns not needed for the analysis**
       ```sql
       -- Delete the category variable from the table as it is the same as industries
       ALTER TABLE demographics_info
       DROP COLUMN category;
 
+   2. **Spilt a Column into two** - The name column was separated into two columns (last and first name)
+      ```sql
+      -- Add new columns for last name and first name
+      ALTER TABLE demographics_info 
+        ADD lastName VARCHAR(255),
+        ADD firstName VARCHAR(255);
+      
+      -- Update the values in the new columns
+      UPDATE demographics_info 
+      SET 
+          lastName = SUBSTRING_INDEX(name, ';', 1),
+          firstName = SUBSTRING_INDEX(name, ';', -1);
+      
+      -- Delete the name column from the table 
+      ALTER TABLE demographics_info 
+      DROP COLUMN name;
+      
+      -- Verify results
+      SELECT * FROM demographics_info;
+   3. **Standardization** - Standardized final worth column changing the data type to the appropriate one of currency rather than just as a number and expressing it in full (billions) rather than in thousands.  
+      ```sql
+      -- Make the finalWorth column in full billions rather than thousands
+      UPDATE demographics_info
+      SET finalWorth = finalWorth * 1000 * 1000;
+   4. 
+
    
+
 
 
 
