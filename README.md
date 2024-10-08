@@ -106,7 +106,40 @@ The dataset contains detailed information on the world's billionaires, focusing 
       -- Make the finalWorth column in full billions rather than thousands
       UPDATE demographics_info
       SET finalWorth = finalWorth * 1000 * 1000;
-   4. 
+      
+   4. **Feature Engineering** - Extracted new variables (columns) from birthdate such as birthYear, birthMonth, birthDay and calculated the Age using the current year – birthyear, also extracted new variables which includes young_selfmade and tax_rate_classfication using conditional IFELSE statement for the aim of exploration.
+      ```sql
+      -- Add new columns for birth year, birth month, birth day, and age
+      ALTER TABLE demographics_info
+        ADD birthYear INT,
+        ADD birthMonth VARCHAR(255),
+        ADD birthDay INT,
+        ADD age INT;
+      
+      -- Populate the new columns with values
+      UPDATE demographics_info
+      SET 
+         birthYear = YEAR(birthDate),
+         birthDay = DAY(birthDate),
+         age = 2024 - birthYear;
+      
+      UPDATE demographics_info
+      SET 
+         birthMonth = CASE 
+             WHEN MONTH(birthDate) = 1 THEN 'January'
+             WHEN MONTH(birthDate) = 2 THEN 'February'
+             WHEN MONTH(birthDate) = 3 THEN 'March'
+             WHEN MONTH(birthDate) = 4 THEN 'April'
+             WHEN MONTH(birthDate) = 5 THEN 'May'
+             WHEN MONTH(birthDate) = 6 THEN 'June'
+             WHEN MONTH(birthDate) = 7 THEN 'July'
+             WHEN MONTH(birthDate) = 8 THEN 'August'
+             WHEN MONTH(birthDate) = 9 THEN 'September'
+             WHEN MONTH(birthDate) = 10 THEN 'October'
+             WHEN MONTH(birthDate) = 11 THEN 'November'
+             WHEN MONTH(birthDate) = 12 THEN 'December'
+             ELSE 'Unknown'
+         END;
 
    
 
