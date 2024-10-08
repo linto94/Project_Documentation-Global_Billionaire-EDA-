@@ -141,7 +141,41 @@ The dataset contains detailed information on the world's billionaires, focusing 
              ELSE 'Unknown'
          END;
 
-   
+   5. **Join** - Performed Inner Joint to combine the demographics_data with the economic_indcator_data  to a single dataset.
+         ```sql
+         -- Combine demographic data with economic indicators data
+         SELECT *
+         FROM billionaire.demographics_info
+         JOIN billionaire.economic_indicators
+         ON demographics_info.country = economic_indicators.country;
+         
+         -- Remove duplicates due to the join operation
+         CREATE TABLE billionaire_data AS
+         SELECT DISTINCT
+             di.country,
+             di.finalWorth,
+             di.city,
+             di.source,
+             di.industries,
+             di.selfMade,
+             di.gender,
+             di.birthDate,
+             di.lastName,
+             di.firstName,
+             di.birthYear,
+             di.birthMonth,
+             di.birthDay,
+             di.age,
+             ei.cpi_country,
+             ei.gdp_country,
+             ei.life_expectancy_country,
+             ei.tax_revenue_country_country,
+             ei.total_tax_rate_country,
+             ei.population_country
+         FROM billionaire.demographics_info di
+         JOIN billionaire.economic_indicators ei
+         ON di.country = ei.country;
+
 
 
 
