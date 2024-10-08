@@ -225,6 +225,93 @@ The dataset contains detailed information on the world's billionaires, focusing 
          LIMIT 10;
 
     * Are there emerging industries creating new billionaires, and what is their impact on wealth distribution?
+         ```sql
+         -- Count the number of young self-made billionaires by industry
+         SELECT industries, COUNT(*) AS Billionaire_Count
+         FROM billionaire_data
+         WHERE young_selfmade = 'Yes'
+         GROUP BY industries
+         ORDER BY Billionaire_Count DESC;
+         
+         -- Calculate total wealth of young self-made billionaires by industry
+         SELECT industries, SUM(finalWorth) AS Billionaire_Wealth
+         FROM billionaire_data
+         WHERE young_selfmade = 'Yes'
+         GROUP BY industries
+         ORDER BY Billionaire_Wealth DESC;
+
+ 2. **Wealth and Gender**
+    * How does gender representation vary among billionaires across different industries and countries?
+         ```sql
+         -- Gender Representation of Billionaires
+         SELECT gender, COUNT(*) as Billionaire_Count
+         FROM billionaire_data
+         GROUP BY gender;
+         
+         -- Count billionaires by gender across different countries
+         SELECT gender, country, COUNT(*) AS Billionaire_Count
+         FROM billionaire_data
+         GROUP BY gender, country;
+         
+         -- Count billionaires by gender across different industries
+         SELECT gender, industries, COUNT(*) AS Billionaire_Count
+         FROM billionaire_data
+         GROUP BY gender, industries;
+
+    * What is the average wealth by gender across industries? Are male or female billionaires wealthier on average?
+         ```sql
+         -- Calculate the average wealth of billionaires by gender and industry
+         SELECT gender, industries, ROUND(AVG(finalWorth), 0) AS Average_Wealth
+         FROM billionaire_data
+         GROUP BY gender, industries;
+         
+   3. **Demographics**
+      * What is the average age of billionaires across industries?
+         ```sql
+         -- Calculate the average age of billionaires by industry
+         SELECT industries, ROUND(AVG(age), 0) AS Average_Age
+         FROM billionaire_data
+         GROUP BY industries
+         ORDER BY Average_Age;
+
+      * What is the representation of billionaires based on month of birth?
+         ```sql
+         -- Count the number of billionaires born in each month
+         SELECT birthMonth, COUNT(*) AS Billionaire_Count
+         FROM billionaire_data
+         GROUP BY birthMonth
+         ORDER BY Billionaire_Count DESC;
+
+      * Are billionaire's wealth more self-made or inherited?
+         ```sql
+         -- Count the number of self-made billionaires and calculate their percentage
+         SELECT 
+             selfMade, 
+             COUNT(*) AS Billionaire_Count,
+             ROUND((COUNT(*) * 100.0) / (SELECT COUNT(*) FROM billionaire_data), 0) AS Percentage
+         FROM billionaire_data
+         GROUP BY selfMade;
+
+      * How does age correlate with the wealth of billionaires? Are older billionaires generally wealthier? : This was done in Ms-Excel
+      * How does self-made status correlate with age or industry, and does it impact wealth accumulation?
+         ```sql
+         -- Calculate the average age of self-made and non self-made billionaires
+         SELECT selfMade, ROUND(AVG(age), 0) AS Average_Age
+         FROM billionaire_data
+         GROUP BY selfMade;
+         
+         -- Calculate the total wealth of self-made and non self-made billionaires
+         SELECT selfMade, ROUND(SUM(finalWorth), 0) AS Average_Worth
+         FROM billionaire_data
+         GROUP BY selfMade;
+         
+         -- Count the number of self-made and non self made billionaires billionaires by industry
+         SELECT selfMade, industries, COUNT(*) AS Billionaire_Count 
+         FROM billionaire_data
+         WHERE industries = 'Fashion & Retail'
+         GROUP BY selfMade, industries;
+
+
 
 
 
