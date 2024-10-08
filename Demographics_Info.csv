@@ -1,0 +1,476 @@
+name,finalWorth,category,country,city,source,industries,selfMade,gender,birthDate
+Arnault;Bernard,211000,Fashion & Retail,France,Paris,LVMH,Fashion & Retail,False,M,1949-03-05 00:00:00
+Musk;Elon,180000,Automotive,United States,Austin,"Tesla, SpaceX",Automotive,True,M,1971-06-28 00:00:00
+Bezos;Jeff,114000,Technology,United States,Medina,Amazon,Technology,True,M,1964-01-12 00:00:00
+Ellison;Larry,107000,Technology,United States,Lanai,Oracle,Technology,True,M,1944-08-17 00:00:00
+Buffett;Warren,106000,Finance & Investments,United States,Omaha,Berkshire Hathaway,Finance & Investments,True,M,1930-08-30 00:00:00
+Gates;Bill,104000,Technology,United States,Medina,Microsoft,Technology,True,M,1955-10-28 00:00:00
+Bloomberg;Michael,94500,Media & Entertainment,United States,New York,Bloomberg LP,Media & Entertainment,True,M,1942-02-14 00:00:00
+Slim Helu;Carlos,93000,Telecom,Mexico,Mexico City,Telecom,Telecom,True,M,1940-01-28 00:00:00
+Ambani;Mukesh,83400,Diversified,India,Mumbai,Diversified,Diversified,False,M,1957-04-19 00:00:00
+Ballmer;Steve,80700,Technology,United States,Hunts Point,Microsoft,Technology,True,M,1956-03-24 00:00:00
+Bettencourt Meyers;Francoise,80500,Fashion & Retail,France,Paris,L'Oréal,Fashion & Retail,False,F,1953-07-10 00:00:00
+Page;Larry,79200,Technology,United States,Palo Alto,Google,Technology,True,M,1973-03-26 00:00:00
+Ortega;Amancio,77300,Fashion & Retail,Spain,La Coruna,Zara,Fashion & Retail,True,M,1936-03-28 00:00:00
+Brin;Sergey,76000,Technology,United States,Los Altos,Google,Technology,True,M,1973-08-21 00:00:00
+Zhong;Shanshan,68000,Food & Beverage,China,Hangzhou,"Beverages, pharmaceuticals",Food & Beverage,True,M,1954-12-01 00:00:00
+Zuckerberg;Mark,64400,Technology,United States,Palo Alto,Facebook,Technology,True,M,1984-05-14 00:00:00
+Koch;Charles,59000,Diversified,United States,Wichita,Koch Industries,Diversified,False,M,1935-11-01 00:00:00
+Koch;Julia,59000,Diversified,United States,New York,Koch Industries,Diversified,False,F,1962-04-12 00:00:00
+Walton;Jim,58800,Fashion & Retail,United States,Bentonville,Walmart,Fashion & Retail,False,M,1948-06-07 00:00:00
+Walton;Rob,57600,Fashion & Retail,United States,Bentonville,Walmart,Fashion & Retail,False,M,1944-10-27 00:00:00
+Walton;Alice,56700,Fashion & Retail,United States,Fort Worth,Walmart,Fashion & Retail,False,F,1949-10-07 00:00:00
+Thomson;David,54400,Media & Entertainment,Canada,Toronto,Media,Media & Entertainment,False,M,1957-06-12 00:00:00
+Dell;Michael,50100,Technology,United States,Austin,Dell Technologies,Technology,True,M,1965-02-23 00:00:00
+Adani;Gautam,47200,Diversified,India,Ahmedabad,"Infrastructure, commodities",Diversified,True,M,1962-06-24 00:00:00
+Knight;Phil,45100,Fashion & Retail,United States,Hillsboro,Nike,Fashion & Retail,True,M,1938-02-24 00:00:00
+Zhang;Yiming,45000,Technology,China,Beijing,TikTok,Technology,True,M,1984-01-01 00:00:00
+Schwarz;Dieter,42900,Fashion & Retail,Germany,Neckarsulm,Retail,Fashion & Retail,False,M,1939-09-24 00:00:00
+Pinault;FranÃ§ois,40100,Fashion & Retail,France,Paris,Luxury goods,Fashion & Retail,True,M,1936-08-21 00:00:00
+Kuehne;Klaus-Michael,39100,Logistics,Switzerland,Schindellegi,Shipping,Logistics,False,M,1937-06-02 00:00:00
+Ferrero;Giovanni,38900,Food & Beverage,Belgium,Brussels,"Nutella, chocolates",Food & Beverage,False,M,1964-09-21 00:00:00
+Mars;Jacqueline,38300,Food & Beverage,United States,The Plains,"Candy, pet food",Food & Beverage,False,F,1939-10-10 00:00:00
+Mars;John,38300,Food & Beverage,United States,Jackson,"Candy, pet food",Food & Beverage,False,M,1935-10-15 00:00:00
+Ma;Huateng,35300,Technology,China,Shenzhen,Internet media,Technology,True,M,1971-10-29 00:00:00
+Adelson;Miriam,35000,Gambling & Casinos,United States,Las Vegas,Casinos,Gambling & Casinos,False,F,1945-10-10 00:00:00
+Griffin;Ken,35000,Finance & Investments,United States,Miami,Hedge funds,Finance & Investments,True,M,1968-10-15 00:00:00
+Mateschitz;Mark,34700,Food & Beverage,Austria,Salzburg,Red Bull,Food & Beverage,False,M,1992-05-07 00:00:00
+Zeng;Robin,33400,Automotive,China,Ningde,Batteries,Automotive,True,M,1969-01-01 00:00:00
+Yanai;Tadashi,32600,Fashion & Retail,Japan,Tokyo,Fashion retail,Fashion & Retail,True,M,1949-02-07 00:00:00
+Blavatnik;Len,32100,Diversified,United Kingdom,London,"Music, chemicals",Diversified,True,M,1957-06-01 00:00:00
+Wertheimer;Alain,31600,Fashion & Retail,United States,New York,Chanel,Fashion & Retail,False,M,1948-08-28 00:00:00
+Wertheimer;Gerard,31600,Fashion & Retail,United States,New York,Chanel,Fashion & Retail,False,M,1951-01-09 00:00:00
+Aponte;Gianluigi,31200,Logistics,Switzerland,Geneva,Shipping,Logistics,True,M,1940-06-27 00:00:00
+Aponte-Diamant;Rafaela,31200,Logistics,Switzerland,Geneva,Shipping,Logistics,True,F,1945-03-26 00:00:00
+Huang;Colin Zheng,30200,Technology,China,Shanghai,E-commerce,Technology,True,M,1980-02-02 00:00:00
+Wuerth;Reinhold,29700,Manufacturing,Germany,Kuenzelsau,Fasteners,Manufacturing,True,M,1935-04-20 00:00:00
+Yass;Jeff,28500,Finance & Investments,United States,Haverford,"Trading, investments",Finance & Investments,True,M,1958-07-17 00:00:00
+Simons;Jim,28100,Finance & Investments,United States,East Setauket,Hedge funds,Finance & Investments,True,M,1938-04-25 00:00:00
+Schwarzman;Stephen,27800,Finance & Investments,United States,New York,Investments,Finance & Investments,True,M,1947-02-14 00:00:00
+Klatten;Susanne,27400,Automotive,Germany,Bad Homburg,"BMW, pharmaceuticals",Automotive,False,F,1962-04-28 00:00:00
+Rinehart;Gina,27000,Metals & Mining,Australia,Perth,Mining,Metals & Mining,False,F,1954-02-09 00:00:00
+Ding;William,26700,Technology,China,Hangzhou,Online games,Technology,True,M,1971-10-01 00:00:00
+Larrea Mota Velasco;Germain,26600,Metals & Mining,Mexico,Mexico City,Mining,Metals & Mining,False,M,1953-10-26 00:00:00
+Nadar;Shiv,25600,Technology,India,Delhi,software services,Technology,True,M,1945-07-18 00:00:00
+Low Tuck;Kwong,25500,Energy,Indonesia,Jakarta,Coal,Energy,True,M,1948-04-17 00:00:00
+Peterffy;Thomas,25300,Finance & Investments,United States,Palm Beach,Discount brokerage,Finance & Investments,True,M,1944-09-30 00:00:00
+Melnichenko;Andrey,25200,Metals & Mining,United Arab Emirates,Ras Al Khaimah,"Fertilizers, coal",Metals & Mining,True,M,1972-03-08 00:00:00
+Quandt;Stefan,24600,Automotive,Germany,Frankfurt,BMW,Automotive,False,M,1966-05-09 00:00:00
+Scott;MacKenzie,24400,Technology,United States,Seattle,Amazon,Technology,False,F,1970-04-07 00:00:00
+Hartono;R. Budi,24200,Finance & Investments,Indonesia,Kudus,"Banking, tobacco",Finance & Investments,False,M,1941-01-01 00:00:00
+Potanin;Vladimir,23700,Metals & Mining,Russia,Moscow,Metals,Metals & Mining,True,M,1961-01-03 00:00:00
+Ma;Jack,23500,Technology,China,Hangzhou,E-commerce,Technology,True,M,1964-09-10 00:00:00
+He;Xiangjian,23400,Manufacturing,China,Foshan,Home appliances,Manufacturing,True,M,1942-08-11 00:00:00
+Fontbona;Iris,23100,Metals & Mining,Chile,Santiago,Mining,Metals & Mining,False,F,1943-01-01 00:00:00
+Hartono;Michael,23100,Manufacturing,Indonesia,Kudus,"Banking, tobacco",Manufacturing,False,M,1939-10-02 00:00:00
+Ratcliffe;James,22900,Manufacturing,United Kingdom,London,Chemicals,Manufacturing,True,M,1953-01-01 00:00:00
+Poonawalla;Cyrus,22600,Healthcare,India,Pune,Vaccines,Healthcare,False,M,1941-05-11 00:00:00
+Son;Masayoshi,22400,Telecom,Japan,Tokyo,"Internet, telecom",Telecom,True,M,1957-08-11 00:00:00
+Lisin;Vladimir,22100,Metals & Mining,Russia,Moscow,"Steel, transport",Metals & Mining,True,M,1956-05-07 00:00:00
+Besnier;Emmanuel,22000,Food & Beverage,France,Laval,Cheese,Food & Beverage,False,M,1970-09-18 00:00:00
+Johnson;Abigail,21600,Finance & Investments,United States,Milton,Fidelity,Finance & Investments,False,F,1961-12-19 00:00:00
+Mikhelson;Leonid,21600,Energy,Russia,Moscow,"Gas, chemicals",Energy,True,M,1955-08-11 00:00:00
+Walton;Lukas,21200,Fashion & Retail,United States,Chicago,Walmart,Fashion & Retail,False,M,1986-09-19 00:00:00
+Wang;Wei,21200,Service,China,Shenzhen,Package delivery,Service,True,M,1970-10-01 00:00:00
+Huang;Jensen,21100,Technology,United States,Los Altos,Semiconductors,Technology,True,M,1963-02-17 00:00:00
+Lauder;Leonard,21000,Fashion & Retail,United States,New York,Estee Lauder,Fashion & Retail,False,M,1933-03-19 00:00:00
+Takizaki;Takemitsu,21000,Manufacturing,Japan,Osaka,Sensors,Manufacturing,True,M,1945-06-10 00:00:00
+Mordashov;Alexey,20900,Metals & Mining,Russia,Moscow,"Steel, investments",Metals & Mining,True,M,1965-09-26 00:00:00
+Alekperov;Vagit,20500,Energy,Russia,Moscow,Oil,Energy,True,M,1950-09-01 00:00:00
+Frist;Thomas,20200,Healthcare,United States,Nashville,Hospitals,Healthcare,True,M,1938-08-12 00:00:00
+Forrest;Andrew,19600,Metals & Mining,Australia,Perth,Mining,Metals & Mining,True,M,1961-11-18 00:00:00
+Dalio;Ray,19100,Finance & Investments,United States,Greenwich,Hedge funds,Finance & Investments,True,M,1949-08-08 00:00:00
+Li;Eric,19000,Automotive,China,Hangzhou,Automobiles,Automotive,True,M,1963-06-01 00:00:00
+Wang;Wenyin,19000,Metals & Mining,China,Shenzhen,"Mining, copper products",Metals & Mining,True,M,1968-03-01 00:00:00
+Qin;Yinglin,18900,Food & Beverage,China,Nanyang,Pig breeding,Food & Beverage,True,M,1965-04-17 00:00:00
+Wang;Chuanfu,18700,Automotive,China,Shenzhen,"Batteries, automobiles",Automotive,True,M,1966-02-15 00:00:00
+Hamm;Harold,18500,Energy,United States,Oklahoma City,Oil & gas,Energy,True,M,1945-12-11 00:00:00
+Tepper;David,18500,Finance & Investments,United States,Palm Beach,Hedge funds,Finance & Investments,True,M,1957-09-11 00:00:00
+Timchenko;Gennady,18500,Energy,Russia,Moscow,"Oil, gas",Energy,True,M,1952-11-09 00:00:00
+Gilbert;Daniel,18000,Finance & Investments,United States,Franklin,Quicken Loans,Finance & Investments,True,M,1962-01-17 00:00:00
+Mittal;Lakshmi,17700,Metals & Mining,United Kingdom,London,Steel,Metals & Mining,False,M,1950-06-15 00:00:00
+Cohen;Steve,17500,Finance & Investments,United States,Greenwich,Hedge funds,Finance & Investments,True,M,1956-06-11 00:00:00
+Icahn;Carl,17500,Finance & Investments,United States,Indian Creek,Investments,Finance & Investments,True,M,1936-02-16 00:00:00
+Jindal;Savitri,17500,Metals & Mining,India,Hisar,Steel,Metals & Mining,False,F,1950-03-20 00:00:00
+Bren;Donald,17400,Real Estate,United States,Newport Beach,Real estate,Real Estate,True,M,1932-05-11 00:00:00
+Menard;John,17400,Fashion & Retail,United States,Eau Claire,Home improvement stores,Fashion & Retail,True,M,1940-01-22 00:00:00
+Murdoch;Rupert,17100,Media & Entertainment,United States,New York,"Newspapers, TV network",Media & Entertainment,False,M,1931-03-11 00:00:00
+Safra;Vicky,16700,Finance & Investments,Switzerland,Crans-Montana,Banking,Finance & Investments,False,F,1953-01-01 00:00:00
+Albrecht;Theo,16500,Fashion & Retail,Germany,Mulheim an der Ruhr,"Aldi, Trader Joe's",Fashion & Retail,False,M,1951-01-01 00:00:00
+Kellnerova;Renata,16500,Finance & Investments,Czech Republic,Prague,"Finance, telecommunications",Finance & Investments,False,F,1967-07-04 00:00:00
+Li;Xiting,16300,Healthcare,China,Shenzhen,medical devices,Healthcare,True,M,1951-01-01 00:00:00
+Persson;Stefan,16200,Fashion & Retail,Sweden,Stockholm,H&M,Fashion & Retail,False,M,1947-10-04 00:00:00
+Schmidt;Eric,16200,Technology,United States,Atherton,Google,Technology,True,M,1955-04-27 00:00:00
+Platt;Michael,16000,Finance & Investments,Switzerland,Geneva,Hedge funds,Finance & Investments,True,M,1968-03-18 00:00:00
+Pang;Kang,15900,Food & Beverage,China,Foshan,Soy sauce,Food & Beverage,True,M,1956-01-19 00:00:00
+Lemann;Jorge Paulo,15800,Food & Beverage,Switzerland,Zurich,Beer,Food & Beverage,True,M,1939-08-26 00:00:00
+Shanghvi;Dilip,15600,Healthcare,India,Mumbai,Pharmaceuticals,Healthcare,True,M,1955-10-01 00:00:00
+Pera;Robert,15500,Technology,United States,San Jose,Wireless networking,Technology,True,M,1978-03-10 00:00:00
+Damani;Radhakishan,15300,Fashion & Retail,India,Mumbai,"Retail, investments",Fashion & Retail,True,M,1955-01-01 00:00:00
+Huang;Shilin,15200,Automotive,China,Ningde,Batteries,Automotive,True,M,1967-01-01 00:00:00
+Chearavanont;Dhanin,14900,Diversified,Thailand,Bangkok,Diversified,Diversified,False,M,1939-04-19 00:00:00
+Green;David,14900,Fashion & Retail,United States,Oklahoma City,Retail,Fashion & Retail,True,M,1941-11-13 00:00:00
+Sirivadhanabhakdi;Charoen,14800,Food & Beverage,Thailand,Bangkok,"Alcohol, real estate",Food & Beverage,True,M,1944-05-02 00:00:00
+de Carvalho-Heineken;Charlene,14700,Food & Beverage,United Kingdom,London,Heineken,Food & Beverage,False,F,1954-06-30 00:00:00
+Xu;Hang,14600,Healthcare,China,Shenzhen,Medical devices,Healthcare,True,M,1962-05-22 00:00:00
+Wei;Jianjun,14500,Automotive,China,Baoding,Automobiles,Automotive,True,M,1964-03-01 00:00:00
+Goh;Cheng Liang,14300,Manufacturing,Singapore,Singapore,Paints,Manufacturing,True,M,1927-06-27 00:00:00
+Birla;Kumar,14200,Diversified,India,Mumbai,Commodities,Diversified,False,M,1967-06-14 00:00:00
+Dangote;Aliko,14200,Manufacturing,Nigeria,Lagos,"Cement, sugar",Manufacturing,True,M,1957-04-10 00:00:00
+Ofer;Idan,14000,Diversified,United Kingdom,London,Shipping,Diversified,False,M,1955-10-02 00:00:00
+Chen;Bang,13900,Healthcare,China,Changsha,Hospitals,Healthcare,True,M,1965-09-01 00:00:00
+Fredriksen;John,13700,Logistics,United Kingdom,London,Shipping,Logistics,True,M,1945-02-01 00:00:00
+Hendricks;Diane,13700,Construction & Engineering,United States,Afton,Building supplies,Construction & Engineering,True,F,1947-03-02 00:00:00
+Koum;Jan,13700,Technology,United States,Atherton,WhatsApp,Technology,True,M,1976-02-24 00:00:00
+Jones;Jerry,13300,Sports,United States,Dallas,Dallas Cowboys,Sports,True,M,1942-10-13 00:00:00
+Kaiser;George,13300,Energy,United States,Tulsa,"Oil & gas, banking",Energy,False,M,1942-07-29 00:00:00
+Lu;Xiangyang,13200,Automotive,China,Guangzhou,"Automobiles, batteries",Automotive,True,M,1962-12-28 00:00:00
+Triguboff;Harry,13100,Real Estate,Australia,Sydney,Real estate,Real Estate,True,M,1933-03-03 00:00:00
+Kotak;Uday,12900,Finance & Investments,India,Mumbai,Banking,Finance & Investments,True,M,1959-03-15 00:00:00
+Kroenke;Stanley,12900,Sports,United States,Electra,"Sports, real estate",Sports,True,M,1947-07-29 00:00:00
+Fridman;Mikhail,12600,Energy,United Kingdom,London,"Oil, banking, telecom",Energy,True,M,1964-04-21 00:00:00
+Ratanavadi;Sarath,12300,Energy,Thailand,Bangkok,Energy,Energy,True,M,1965-07-12 00:00:00
+Dang;Yanbao,12200,Metals & Mining,China,Yinchuan,Coal,Metals & Mining,True,M,1973-02-01 00:00:00
+Jiang;Rensheng,12200,Healthcare,China,Chongqing,Vaccines,Healthcare,True,M,1953-10-08 00:00:00
+Khan;Shahid,12100,Automotive,United States,Naples,Auto parts,Automotive,True,M,1950-07-18 00:00:00
+Powell Jobs;Laurene,12000,Technology,United States,Palo Alto,"Apple, Disney",Technology,False,F,1963-11-06 00:00:00
+Ross;Stephen,11600,Real Estate,United States,New York,Real estate,Real Estate,True,M,1940-05-10 00:00:00
+Durov;Pavel,11500,Technology,United Arab Emirates,Dubai,Messaging app,Technology,True,M,1984-10-10 00:00:00
+Struengmann;Andreas,11500,Healthcare,Germany,Tegernsee,Pharmaceuticals,Healthcare,True,M,1950-02-16 00:00:00
+Struengmann;Thomas,11500,Healthcare,Germany,Tegernsee,Pharmaceuticals,Healthcare,True,M,1950-02-16 00:00:00
+Liu;Hanyuan,11400,Food & Beverage,China,Chengdu,Agribusiness,Food & Beverage,True,M,1964-01-01 00:00:00
+Rubin;Michael,11400,Fashion & Retail,United States,Bryn Mawr,Online retail,Fashion & Retail,True,M,1972-07-21 00:00:00
+Englander;Israel,11300,Finance & Investments,United States,New York,Hedge funds,Finance & Investments,True,M,1948-09-30 00:00:00
+Kantor;Viatcheslav,11300,Manufacturing,Israel,Herzliya,"Fertilizer, real estate",Manufacturing,True,M,1953-09-08 00:00:00
+Pratt;Anthony,11300,Manufacturing,Australia,Melbourne,Manufacturing,Manufacturing,False,M,1960-04-11 00:00:00
+Prokhorov;Mikhail,11300,Finance & Investments,Switzerland,Frauenfeld,Investments,Finance & Investments,True,M,1965-05-03 00:00:00
+Armani;Giorgio,11100,Fashion & Retail,Italy,Milan,Luxury goods,Fashion & Retail,True,M,1934-07-11 00:00:00
+Rupert;Johann,11100,Fashion & Retail,South Africa,Cape Town,Luxury goods,Fashion & Retail,False,M,1950-06-01 00:00:00
+Zhang;Zhidong,11000,Technology,China,Shenzhen,Internet media,Technology,True,M,1972-01-01 00:00:00
+Anschutz;Philip,10900,Finance & Investments,United States,Denver,"Energy, sports, entertainment",Finance & Investments,False,M,1939-12-28 00:00:00
+Love;Judy,10900,Fashion & Retail,United States,Oklahoma City,Gas stations,Fashion & Retail,True,F,1937-06-17 00:00:00
+Salinas Pliego;Ricardo,10900,Fashion & Retail,Mexico,Mexico City,"Retail, media",Fashion & Retail,False,M,1955-10-19 00:00:00
+Newhouse;Donald,10700,Media & Entertainment,United States,New York,Media,Media & Entertainment,False,M,2029-08-05 00:00:00
+Kraft;Robert,10600,Sports,United States,Brookline,"Manufacturing, New England Patriots",Sports,True,M,1941-06-05 00:00:00
+Telles;Marcel Herrmann,10600,Food & Beverage,Brazil,Sao Paulo,Beer,Food & Beverage,True,M,1950-01-01 00:00:00
+Kerimov & family;Suleiman,10500,Finance & Investments,Russia,Moscow,Gold,Finance & Investments,True,M,1966-03-12 00:00:00
+Xu;Sky,10500,Fashion & Retail,China,Guangzhou,E-commerce,Fashion & Retail,True,M,1984-01-01 00:00:00
+Zhao;Changpeng,10500,Finance & Investments,United Arab Emirates,Dubai,Cryptocurrency exchange,Finance & Investments,True,M,1977-09-10 00:00:00
+Beal;Andrew,10300,Finance & Investments,United States,Dallas,"Banks, real estate",Finance & Investments,True,M,1952-11-29 00:00:00
+Cannon-Brookes;Mike,10200,Technology,Australia,Sydney,Software,Technology,True,M,1979-11-17 00:00:00
+Cook;Carl,10200,Healthcare,United States,Bloomington,Medical devices,Healthcare,False,M,1962-08-19 00:00:00
+Duffield;David,10200,Technology,United States,Incline Village,Business software,Technology,True,M,1940-09-21 00:00:00
+Hildebrand;Jeffery,10200,Energy,United States,Houston,Oil,Energy,True,M,1959-03-05 00:00:00
+Rashnikov;Viktor,10200,Manufacturing,Russia,Magnitogorsk,Steel,Manufacturing,True,M,1948-10-13 00:00:00
+Saverin;Eduardo,10200,Technology,Singapore,Singapore,Facebook,Technology,True,M,1982-03-19 00:00:00
+Schaeffler;Georg,10200,Automotive,Germany,Herzogenaurach,Auto parts,Automotive,False,M,1964-10-19 00:00:00
+Walton;Christy,10200,Fashion & Retail,United States,Jackson,Walmart,Fashion & Retail,False,F,1949-02-08 00:00:00
+Farquhar;Scott,10100,Technology,Australia,Sydney,Software,Technology,True,M,1979-12-17 00:00:00
+Quek;Leng Chan,10100,Diversified,Malaysia,Kuala Lumpur,"Banking, property",Diversified,False,M,1941-08-12 00:00:00
+Wu;Yajun,10100,Real Estate,China,Beijing,Real estate,Real Estate,True,F,1964-01-01 00:00:00
+Stephens;Autry,10000,Energy,United States,Midland,Oil,Energy,True,M,1938-03-08 00:00:00
+Liu;Yongxing,9900,Service,China,Shanghai,Diversified,Service,True,M,1948-06-01 00:00:00
+Adani;Vinod,9800,Diversified,United Arab Emirates,Dubai,"Infrastructure, commodities",Diversified,True,M,1949-01-10 00:00:00
+Puech;Nicolas,9800,Fashion & Retail,Switzerland,Martigny,Hermes,Fashion & Retail,False,M,1943-01-29 00:00:00
+Saade;Jacques,9800,Logistics,France,Marseille,Shipping,Logistics,False,M,1971-08-10 00:00:00
+Saade;Rodolphe,9800,Logistics,France,Marseille,Shipping,Logistics,False,M,1970-03-03 00:00:00
+Saade Zeenny;Tanya,9800,Logistics,France,Marseille,Shipping,Logistics,False,F,1968-02-01 00:00:00
+Schorling;Melker,9800,Finance & Investments,Sweden,Stockholm,Investments,Finance & Investments,True,M,1947-05-15 00:00:00
+Guriev & family;Andrei,9700,Manufacturing,Russia,Moscow,Fertilizers,Manufacturing,True,M,1960-03-24 00:00:00
+Kim;Michael,9700,Finance & Investments,South Korea,Seoul,Private equity,Finance & Investments,True,M,1963-10-01 00:00:00
+Lei;Jun,9700,Technology,China,Beijing,Smartphones,Technology,True,M,1969-12-16 00:00:00
+Loh;Friedhelm,9700,Manufacturing,Germany,Haiger,Manufacturing,Manufacturing,False,M,1946-08-15 00:00:00
+Sun;Piaoyang,9700,Healthcare,China,Lianyungang,Pharmaceuticals,Healthcare,True,M,1958-09-01 00:00:00
+Cohen;Rick,9600,Technology,United States,Keene,Warehouse automation,Technology,False,M,1952-07-25 00:00:00
+Jin;Baofang,9600,Energy,China,Xingtai,Solar panels,Energy,True,M,1952-09-01 00:00:00
+Luo;Liguo,9600,Manufacturing,China,Ningbo,Chemicals,Manufacturing,True,M,1956-03-01 00:00:00
+Mars;Marijke,9600,Food & Beverage,United States,Los Angeles,"Candy, pet food",Food & Beverage,False,F,1964-07-28 00:00:00
+Mars;Pamela,9600,Food & Beverage,United States,Alexandria,"Candy, pet food",Food & Beverage,False,F,1960-08-01 00:00:00
+Mars;Valerie,9600,Food & Beverage,United States,New York,"Candy, pet food",Food & Beverage,False,F,1959-01-26 00:00:00
+Mars;Victoria,9600,Food & Beverage,United States,Philadelphia,"Candy, pet food",Food & Beverage,False,F,1956-12-15 00:00:00
+Bollore;Vincent,9500,Finance & Investments,France,Paris,Investments,Finance & Investments,False,M,1952-04-01 00:00:00
+Pattison;Jim,9500,Diversified,Canada,Vancouver,Diversified,Diversified,True,M,2028-10-01 00:00:00
+Bertarelli;Ernesto,9400,Healthcare,Switzerland,Gstaad,"Biotech, investments",Healthcare,False,M,1965-09-22 00:00:00
+Wang;Xing,9400,Technology,China,Beijing,Food delivery,Technology,True,M,1979-02-18 00:00:00
+Chesky;Brian,9300,Technology,United States,San Francisco,Airbnb,Technology,True,M,1981-08-29 00:00:00
+Dyson;James,9300,Manufacturing,United Kingdom,Gloucestershire,Vacuums,Manufacturing,True,M,1947-05-02 00:00:00
+Abramovich;Roman,9200,Diversified,Russia,Moscow,"Steel, investments",Diversified,True,M,1966-10-24 00:00:00
+Ax:son Johnson;Antonia,9200,Diversified,Sweden,Stockholm,Diversified,Diversified,False,F,1943-09-06 00:00:00
+Kretinsky;Daniel,9200,Energy,Czech Republic,Prague,"Energy, investments",Energy,True,M,1975-07-09 00:00:00
+Malone;John,9200,Media & Entertainment,United States,Elizabeth,Cable television,Media & Entertainment,True,M,1941-03-07 00:00:00
+Premji;Azim,9200,Technology,India,Bangalore,Software services,Technology,False,M,1945-07-24 00:00:00
+Schwab;Charles,9200,Finance & Investments,United States,Woodside,Discount brokerage,Finance & Investments,True,M,1937-07-29 00:00:00
+Smidt;Eric,9200,Fashion & Retail,United States,Beverly Hills,Hardware stores,Fashion & Retail,True,M,1960-01-01 00:00:00
+Cheriton;David,9000,Technology,United States,Palo Alto,Google,Technology,True,M,1951-03-29 00:00:00
+Glasenberg;Ivan,9000,Metals & Mining,Switzerland,Ruschlikon,Mining,Metals & Mining,True,M,1957-01-07 00:00:00
+Otto;Alexander,9000,Real Estate,Germany,Hamburg,Real estate,Real Estate,False,M,1967-07-07 00:00:00
+von Mandl;Anthony,9000,Food & Beverage,Canada,Vancouver,Alcoholic beverages,Food & Beverage,True,M,1950-03-10 00:00:00
+Wang;Liping,9000,Manufacturing,China,Changzhou,Hydraulic machinery,Manufacturing,True,M,1966-02-24 00:00:00
+Rausing;Finn,8900,Food & Beverage,United Kingdom,London,Packaging,Food & Beverage,False,M,1955-01-01 00:00:00
+Rausing;Jorn,8900,Food & Beverage,United Kingdom,Surrey,Packaging,Food & Beverage,False,M,1960-01-01 00:00:00
+Rausing;Kirsten,8900,Food & Beverage,United Kingdom,Newmarket,Packaging,Food & Beverage,False,F,1952-06-06 00:00:00
+Bakalchuk;Tatyana,8800,Fashion & Retail,Russia,Moscow region,Ecommerce,Fashion & Retail,True,F,1975-10-16 00:00:00
+Doerr;John,8800,Technology,United States,Woodside,Venture capital,Technology,True,M,1951-06-29 00:00:00
+Liu;Richard,8800,Technology,China,Beijing,E-commerce,Technology,True,M,1974-03-10 00:00:00
+Moskovitz;Dustin,8800,Technology,United States,San Francisco,Facebook,Technology,True,M,1984-05-22 00:00:00
+Omidyar;Pierre,8800,Technology,United States,Honolulu,"EBay, PayPal",Technology,True,M,1967-06-21 00:00:00
+Pei;Zhenhua,8800,Energy,China,Ningde,Batteries,Energy,True,M,1959-01-01 00:00:00
+Perrodo;Carrie,8800,Energy,United Kingdom,London,Oil,Energy,False,F,1951-01-01 00:00:00
+Chen;Jianhua,8700,Manufacturing,China,Wujiang,Chemicals,Manufacturing,True,M,1971-01-01 00:00:00
+Otto;Michael,8700,Fashion & Retail,Germany,Hamburg,"Retail, real estate",Fashion & Retail,False,M,1943-04-12 00:00:00
+Black;Leon,8600,Finance & Investments,United States,New York,Private equity,Finance & Investments,True,M,1951-07-31 00:00:00
+Hart;Graeme,8600,Finance & Investments,New Zealand,Auckland,Investments,Finance & Investments,True,M,1955-06-06 00:00:00
+Jaipuria;Ravi,8600,Food & Beverage,India,Delhi,"Soft drinks, fast food",Food & Beverage,False,M,1954-11-28 00:00:00
+Plattner;Hasso,8600,Technology,Germany,Heidelberg,Software,Technology,True,M,1944-01-21 00:00:00
+Sicupira;Carlos Alberto,8600,Food & Beverage,Switzerland,St. Gallen,Beer,Food & Beverage,True,M,1948-01-01 00:00:00
+Villar;Manuel,8600,Real Estate,Philippines,Manila,Real estate,Real Estate,True,M,1949-12-13 00:00:00
+von Bechtolsheim;Andreas,8600,Technology,United States,Palo Alto,Google,Technology,True,M,1955-09-30 00:00:00
+Coleman;Chase,8500,Finance & Investments,United States,New York,Investments,Finance & Investments,True,M,1975-06-21 00:00:00
+Kroenke;Ann Walton,8500,Fashion & Retail,United States,Electra,Walmart,Fashion & Retail,False,F,1948-12-18 00:00:00
+Li;Zhenguo,8500,Manufacturing,China,Xi'an,Solar wafers and modules,Manufacturing,True,M,1968-01-01 00:00:00
+Kennedy;Jim,8400,Media & Entertainment,United States,Atlanta,"Media, automotive",Media & Entertainment,False,M,1947-11-29 00:00:00
+Oppenheimer;Nicky,8400,Metals & Mining,South Africa,Johannesburg,Diamonds,Metals & Mining,False,M,1945-06-08 00:00:00
+Parry-Okeden;Blair,8400,Media & Entertainment,Australia,New South Wales,"Media, automotive",Media & Entertainment,False,F,1950-05-21 00:00:00
+Zheng;Shuliang,8400,Metals & Mining,China,Binzhou,Aluminum products,Metals & Mining,False,F,1946-01-01 00:00:00
+Morris;John,8300,Fashion & Retail,United States,Springfield,Sporting goods retail,Fashion & Retail,True,M,1948-03-19 00:00:00
+Khan;German,8200,Energy,Russia,Moscow,"Oil, banking, telecom",Energy,True,M,1961-10-24 00:00:00
+Rabiu;Abdulsamad,8200,Diversified,Nigeria,Lagos,"Cement, sugar",Diversified,False,M,1960-08-04 00:00:00
+Roberts;George,8200,Finance & Investments,United States,Atherton,Private equity,Finance & Investments,True,M,1943-09-14 00:00:00
+Singh;Kushal Pal,8200,Real Estate,India,Delhi,Real estate,Real Estate,False,M,1931-08-15 00:00:00
+Wang;Jianlin,8200,Real Estate,China,Beijing,Real estate,Real Estate,True,M,1954-10-01 00:00:00
+Yang;Huiyan,8200,Real Estate,China,Foshan,Real estate,Real Estate,False,F,1981-09-27 00:00:00
+Dassault;Laurent,8100,Diversified,France,Paris,Diversified,Diversified,False,M,1953-07-07 00:00:00
+Dassault;Thierry,8100,Diversified,France,Paris,Diversified,Diversified,False,M,1957-03-26 00:00:00
+Fertitta;Tilman,8100,Food & Beverage,United States,Houston,"Houston Rockets, entertainment",Food & Beverage,True,M,1957-06-25 00:00:00
+Habert-Dassault;Marie-Helene,8100,Diversified,France,Paris,Diversified,Diversified,False,F,1965-04-04 00:00:00
+Komarek;Karel,8100,Gambling & Casinos,Switzerland,Verbier,"Oil and gas, IT, lotteries",Gambling & Casinos,True,M,1969-03-15 00:00:00
+Blecharczyk;Nathan,8000,Technology,United States,San Francisco,Airbnb,Technology,True,M,1983-06-11 00:00:00
+Fedun;Leonid,8000,Energy,Russia,Moscow,Oil,Energy,True,M,1956-04-05 00:00:00
+Marcus;Bernard,8000,Fashion & Retail,United States,Atlanta,Home Depot,Fashion & Retail,True,M,2029-05-12 00:00:00
+Ryan;Patrick,8000,Finance & Investments,United States,Winnetka,Insurance,Finance & Investments,True,M,1937-05-15 00:00:00
+Smith;Robert F.,8000,Finance & Investments,United States,Austin,Private equity,Finance & Investments,True,M,1962-12-01 00:00:00
+Tykac;Pavel,8000,Metals & Mining,Czech Republic,Prague,Coal mines,Metals & Mining,True,M,1964-05-15 00:00:00
+Bravo;Orlando,7900,Finance & Investments,United States,Miami Beach,Private equity,Finance & Investments,True,M,1970-09-23 00:00:00
+Ding;Shizhong,7900,Fashion & Retail,China,Quanzhou,Sports apparel,Fashion & Retail,True,M,1970-12-01 00:00:00
+Laurie;Nancy Walton,7900,Fashion & Retail,United States,Henderson,Walmart,Fashion & Retail,False,F,1951-05-15 00:00:00
+Lee;Jay Y.,7900,Technology,South Korea,Seoul,Samsung,Technology,False,M,1968-06-23 00:00:00
+Musallam;Ramzi,7900,Finance & Investments,United States,New York,Private equity,Finance & Investments,True,M,1968-09-17 00:00:00
+Shaw;David,7900,Finance & Investments,United States,New York,Hedge funds,Finance & Investments,True,M,1951-03-29 00:00:00
+Skoch & family;Andrei,7900,Metals & Mining,Russia,Moscow,Metals and mining,Metals & Mining,True,M,1966-01-30 00:00:00
+Stumpf;Georg,7900,Diversified,Austria,Vienna,"Real estate, construction",Diversified,True,M,1972-09-14 00:00:00
+Commisso;Rocco,7800,Telecom,United States,Saddle River,Telecom,Telecom,True,M,1949-11-25 00:00:00
+Li;Shuirong,7800,Manufacturing,China,Hangzhou,Petrochemicals,Manufacturing,True,M,1956-07-01 00:00:00
+Qi;Shi,7800,Technology,China,Shanghai,Financial information,Technology,True,M,1970-01-03 00:00:00
+Yao;Liangsong,7800,Manufacturing,China,Guangzhou,Furniture,Manufacturing,True,M,1964-08-01 00:00:00
+Besnier;Jean-Michel,7700,Food & Beverage,France,Laval,Cheese,Food & Beverage,False,M,1967-06-05 00:00:00
+Besnier Beauvalot;Marie,7700,Food & Beverage,France,Laval,Cheese,Food & Beverage,False,F,1980-07-30 00:00:00
+Geffen;David,7700,Media & Entertainment,United States,Beverly Hills,"Movies, record labels",Media & Entertainment,True,M,1943-02-21 00:00:00
+Li;Robin,7700,Technology,China,Beijing,Internet search,Technology,True,M,1968-11-17 00:00:00
+Liu;Yonghao,7700,Service,China,Chengdu,Agribusiness,Service,True,M,1951-09-01 00:00:00
+Samueli;Henry,7700,Technology,United States,Newport Beach,Semiconductors,Technology,True,M,1954-09-20 00:00:00
+Schmieding;Reinhold,7700,Healthcare,United States,Naples,Medical devices,Healthcare,True,M,1955-01-03 00:00:00
+Tollefsen;Ivar,7700,Real Estate,Norway,Oslo,Real estate,Real Estate,True,M,1961-06-23 00:00:00
+Cao;Renxian,7600,Energy,China,Hefei,Photovoltaic equipment,Energy,True,M,1968-07-24 00:00:00
+Chudgar;Hasmukh,7600,Healthcare,India,Ahmedabad,Pharmaceuticals,Healthcare,True,M,1933-09-19 00:00:00
+Currie;Andrew,7600,Manufacturing,United Kingdom,London,Chemicals,Manufacturing,True,M,1955-12-04 00:00:00
+Gebbia;Joe,7600,Technology,United States,Austin,Airbnb,Technology,True,M,1981-08-21 00:00:00
+Ng;Philip,7600,Real Estate,Singapore,Singapore,Real Estate,Real Estate,False,M,1959-01-01 00:00:00
+Reece;John,7600,Manufacturing,United Kingdom,London,Chemicals,Manufacturing,True,M,1957-03-07 00:00:00
+Stern;Leonard,7600,Real Estate,United States,New York,Real estate,Real Estate,False,M,1938-03-28 00:00:00
+Zhong;Huijuan,7600,Healthcare,China,Shanghai,Pharmaceuticals,Healthcare,True,F,1961-01-01 00:00:00
+Blank;Arthur,7500,Sports,United States,Atlanta,Home Depot,Sports,True,M,1942-09-27 00:00:00
+Butt;Charles,7500,Fashion & Retail,United States,San Antonio,Supermarkets,Fashion & Retail,False,M,1938-02-03 00:00:00
+Ding;Shijia,7500,Fashion & Retail,China,Quanzhou,Sports apparel,Fashion & Retail,True,M,1964-01-01 00:00:00
+Jones;Paul Tudor,7500,Finance & Investments,United States,Palm Beach,Hedge funds,Finance & Investments,True,M,1954-09-28 00:00:00
+Kravis;Henry,7500,Finance & Investments,United States,New York,Private equity,Finance & Investments,True,M,1944-01-06 00:00:00
+Zhang;Yong,7500,Food & Beverage,Singapore,Singapore,Restaurants,Food & Beverage,True,M,1970-07-01 00:00:00
+Goodnight;James,7400,Technology,United States,Cary,Software,Technology,True,M,1943-01-06 04:00:00
+Lohia;Sri Prakash,7400,Manufacturing,United Kingdom,London,Petrochemicals,Manufacturing,False,M,1952-08-11 00:00:00
+Ma;Jianrong,7400,Fashion & Retail,China,Ningbo,"Textiles, apparel",Fashion & Retail,True,M,1964-01-01 00:00:00
+Ng;Robert,7400,Real Estate,Singapore,Singapore,Real estate,Real Estate,False,M,1952-01-01 00:00:00
+Rales;Steven,7400,Manufacturing,United States,Santa Barbara,"Manufacturing, investments",Manufacturing,True,M,1951-03-31 00:00:00
+Sawiris;Nassef,7400,Construction & Engineering,Egypt,Cairo,"Construction, investments",Construction & Engineering,False,M,1961-01-19 00:00:00
+Stine;Harry,7400,Food & Beverage,United States,Adel,Agriculture,Food & Beverage,True,M,1941-11-30 00:00:00
+Bangur;Benu Gopal,7300,Manufacturing,India,Kolkata,Cement,Manufacturing,False,M,1931-06-01 00:00:00
+Makhmudov;Iskander,7300,Metals & Mining,Russia,Moscow,"Mining, metals, machinery",Metals & Mining,True,M,1963-12-05 00:00:00
+Povlsen;Anders Holch,7300,Fashion & Retail,Denmark,Aarhus,Fashion retail,Fashion & Retail,False,M,1972-11-04 00:00:00
+Razon Jr.;Enrique,7300,Logistics,Philippines,Manila,Ports,Logistics,False,M,1960-03-03 00:00:00
+Wang;Laichun,7300,Technology,China,Shenzhen,Electronics components,Technology,True,F,1967-06-03 00:00:00
+Dantchik;Arthur,7200,Finance & Investments,United States,Gladwyne,"Trading, investments",Finance & Investments,True,M,1957-11-25 00:00:00
+Greene;Jeff,7200,Real Estate,United States,Palm Beach,"Real estate, investments",Real Estate,True,M,1954-12-10 00:00:00
+Hankey;Don,7200,Finance & Investments,United States,Malibu,Auto loans,Finance & Investments,True,M,1943-06-13 00:00:00
+Kinder;Richard,7200,Energy,United States,Houston,Pipelines,Energy,True,M,1944-10-19 00:00:00
+Pousaz;Guillaume,7200,Finance & Investments,United Arab Emirates,Dubai,Fintech,Finance & Investments,True,M,1981-08-15 00:00:00
+Takahara;Takahisa,7200,Fashion & Retail,Japan,Tokyo,Personal care goods,Fashion & Retail,False,M,1961-07-12 00:00:00
+Zong;Qinghou,7200,Food & Beverage,China,Hangzhou,Beverages,Food & Beverage,True,M,1945-10-01 00:00:00
+Faulkner;Judy,7100,Technology,United States,Madison,Healthcare software,Technology,True,F,1943-08-01 00:00:00
+Graf;Johann,7100,Gambling & Casinos,Austria,Vienna,Gambling,Gambling & Casinos,True,M,1947-01-03 00:00:00
+Gustavson;Tamara,7100,Service,United States,Lexington,Self storage,Service,False,F,1961-11-16 00:00:00
+Liang;Wengen,7100,Manufacturing,China,Changsha,Construction equipment,Manufacturing,True,M,1956-12-14 00:00:00
+Paulsen;Frederik,7100,Healthcare,Switzerland,Lausanne,Health care,Healthcare,False,M,1950-10-30 00:00:00
+Wee;Cho Yaw,7100,Finance & Investments,Singapore,Singapore,Banking,Finance & Investments,False,M,2029-01-10 00:00:00
+Zhang;Hejun,7100,Manufacturing,China,Ningbo,Electronics,Manufacturing,True,M,1952-01-01 00:00:00
+Benioff;Marc,7000,Technology,United States,San Francisco,Business software,Technology,True,M,1964-09-25 00:00:00
+Bukhman;Dmitri,7000,Media & Entertainment,United Kingdom,London,Online games,Media & Entertainment,True,M,1985-05-27 00:00:00
+Bukhman;Igor,7000,Media & Entertainment,United Kingdom,London,Online games,Media & Entertainment,True,M,1982-03-29 00:00:00
+Dangermond;Jack,7000,Technology,United States,Redlands,Mapping software,Technology,True,M,1945-07-23 00:00:00
+Dani;Ashwin,7000,Manufacturing,India,Mumbai,Paints,Manufacturing,False,M,1942-10-24 00:00:00
+Lauren;Ralph,7000,Fashion & Retail,United States,New York,Apparel,Fashion & Retail,True,M,1939-10-14 00:00:00
+Mistry;Rohiqa Cyrus,7000,Diversified,India,Mumbai,Diversified,Diversified,False,F,1967-06-06 00:00:00
+Mistry;Shapoor,7000,Diversified,India,Mumbai,Diversified,Diversified,False,M,1964-09-06 00:00:00
+Reyes;J. Christopher,7000,Food & Beverage,United States,Hobe Sound,Food distribution,Food & Beverage,True,M,1953-12-29 00:00:00
+Reyes;Jude,7000,Food & Beverage,United States,Palm Beach,Food distribution,Food & Beverage,True,M,1955-09-16 00:00:00
+Vultaggio;Don,7000,Food & Beverage,United States,Port Washington,Beverages,Food & Beverage,True,M,1952-02-26 00:00:00
+Broad;Edythe,6900,Diversified,United States,Los Angeles,"Homebuilding, insurance",Diversified,False,F,1936-01-01 00:00:00
+Keinath;Pauline MacMillan,6900,Food & Beverage,United States,St. Louis,Cargill,Food & Beverage,False,F,1934-01-01 00:00:00
+Laffont;Philippe,6900,Finance & Investments,United States,New York,Hedge fund,Finance & Investments,True,M,1967-09-16 00:00:00
+Liu;Jincheng,6900,Technology,China,Huizhou,Lithium batteries,Technology,True,M,1964-09-22 00:00:00
+Olenicoff;Igor,6900,Real Estate,United States,Lighthouse Point,Real estate,Real Estate,True,M,1942-09-20 00:00:00
+Ortega Mera;Sandra,6900,Fashion & Retail,Spain,La Coruna,Zara,Fashion & Retail,False,F,1968-07-09 00:00:00
+Stryker;Ronda,6900,Healthcare,United States,Portage,Medical equipment,Healthcare,False,F,1954-05-01 00:00:00
+Avara;Dannine,6800,Energy,United States,Houston,Pipelines,Energy,False,F,1964-03-09 00:00:00
+Berlusconi;Silvio,6800,Diversified,Italy,Milan,Media,Diversified,True,M,1936-09-29 00:00:00
+Coates;Denise,6800,Gambling & Casinos,United Kingdom,Stoke-on-Trent,Online gambling,Gambling & Casinos,True,F,1967-09-26 00:00:00
+Duncan;Scott,6800,Energy,United States,Houston,Pipelines,Energy,False,M,1982-11-01 00:00:00
+Frantz;Milane,6800,Energy,United States,Houston,Pipelines,Energy,False,F,1969-08-12 00:00:00
+Johnson;Edward,6800,Finance & Investments,United States,Boston,Fidelity,Finance & Investments,False,M,1964-11-18 00:00:00
+Milner;Yuri,6800,Finance & Investments,United States,Los Altos,Tech investments,Finance & Investments,True,M,1961-11-11 00:00:00
+Moore;Gordon,6800,Technology,United States,Woodside,Intel,Technology,True,M,2029-01-03 00:00:00
+Overdeck;John,6800,Finance & Investments,United States,Millburn,Hedge funds,Finance & Investments,True,M,1969-12-21 00:00:00
+Siegel;David,6800,Finance & Investments,United States,Scarsdale,Hedge funds,Finance & Investments,True,M,1961-07-15 00:00:00
+Vekselberg;Viktor,6800,Diversified,Russia,Moscow,"Metals, investments",Diversified,True,M,1957-04-14 00:00:00
+Wang;Laisheng,6800,Technology,China,Shenzhen,Electronics components,Technology,True,M,1964-12-14 00:00:00
+Williams;Randa Duncan,6800,Energy,United States,Houston,Pipelines,Energy,False,F,1961-08-28 00:00:00
+Fisher;Ken,6700,Finance & Investments,United States,Dallas,Money management,Finance & Investments,True,M,1950-11-29 00:00:00
+Hohn;Christopher,6700,Finance & Investments,United Kingdom,London,Hedge funds,Finance & Investments,True,M,1966-10-27 00:00:00
+Kristiansen;Kjeld Kirk,6700,Manufacturing,Denmark,Billund,Lego,Manufacturing,False,M,1947-12-27 00:00:00
+Kristiansen;Sofie Kirk,6700,Manufacturing,Denmark,Billund,Lego,Manufacturing,False,F,1976-01-01 00:00:00
+Kristiansen;Thomas Kirk,6700,Manufacturing,Denmark,Billund,Lego,Manufacturing,False,M,1979-01-01 00:00:00
+Landini Aleotti;Massimiliana,6700,Healthcare,Italy,Fiesole,Pharmaceuticals,Healthcare,False,F,1943-01-01 00:00:00
+Li;Ping,6700,Automotive,China,Ningde,Batteries,Automotive,True,M,1968-01-01 00:00:00
+Lin;Jianhua,6700,Manufacturing,China,Hangzhou,Solar panel components,Manufacturing,True,M,1962-08-01 00:00:00
+Martullo-Blocher;Magdalena,6700,Manufacturing,Switzerland,Feldmeilen,Chemicals,Manufacturing,False,F,1969-01-01 00:00:00
+Niel;Xavier,6700,Telecom,France,Paris,"Internet, telecom",Telecom,True,M,1967-08-25 00:00:00
+Pegula;Terrence,6700,Energy,United States,Boca Raton,Natural gas,Energy,True,M,1951-03-27 00:00:00
+Roski;Edward,6700,Real Estate,United States,Los Angeles,Real estate,Real Estate,False,M,1938-12-25 00:00:00
+Sobrato;John A.,6700,Real Estate,United States,Atherton,Real estate,Real Estate,True,M,1939-05-23 00:00:00
+Soros;George,6700,Finance & Investments,United States,Katonah,Hedge funds,Finance & Investments,True,M,1930-08-12 00:00:00
+Sun;David,6700,Technology,United States,Irvine,Computer hardware,Technology,True,M,1951-10-12 00:00:00
+Thinggaard;Agnete Kirk,6700,Manufacturing,Denmark,Billund,Lego,Manufacturing,False,F,1983-05-18 00:00:00
+Tu;John,6700,Technology,United States,Rolling Hills,Computer hardware,Technology,True,M,1941-08-12 00:00:00
+Xu;Shihui,6700,Food & Beverage,China,Quanzhou,"Snacks, beverages",Food & Beverage,True,M,1958-01-01 00:00:00
+Blocher;Rahel,6600,Manufacturing,Switzerland,Wilen bei Wollerau,Chemicals,Manufacturing,False,F,1976-01-01 00:00:00
+Cathy;Bubba,6600,Food & Beverage,United States,Atlanta,Chick-fil-A,Food & Beverage,False,M,1954-04-22 00:00:00
+Cathy;Dan,6600,Food & Beverage,United States,Atlanta,Chick-fil-A,Food & Beverage,False,M,1953-03-01 00:00:00
+Cathy White;Trudy,6600,Food & Beverage,United States,Hampton,Chick-fil-A,Food & Beverage,False,F,1955-12-17 00:00:00
+Kovner;Bruce,6600,Finance & Investments,United States,New York,Hedge funds,Finance & Investments,True,M,1945-02-25 00:00:00
+Nicholas;Henry,6600,Technology,United States,Newport Coast,Semiconductors,Technology,True,M,1959-10-08 00:00:00
+Thiele;Nadia,6600,Finance & Investments,Germany,Munich,Investments,Finance & Investments,False,F,1976-01-07 00:00:00
+Bonderman;David,6500,Finance & Investments,United States,Fort Worth,Private equity,Finance & Investments,True,M,1942-11-27 00:00:00
+French Gates;Melinda,6500,Technology,United States,Medina,Microsoft,Technology,False,F,1964-08-15 00:00:00
+Lerner;Annette,6500,Real Estate,United States,Chevy Chase,Real estate,Real Estate,False,F,1930-02-27 00:00:00
+Reuben;David,6500,Real Estate,United Kingdom,London,"Investments, real estate",Real Estate,True,M,1938-09-01 00:00:00
+Vitek;Radovan,6500,Real Estate,Switzerland,Crans Montana,Real estate,Real Estate,True,M,1971-04-22 00:00:00
+Bennet;Carl,6400,Finance & Investments,Sweden,Gothenberg,Investments,Finance & Investments,True,M,1951-08-19 00:00:00
+Bisciotti;Stephen,6400,Sports,United States,Hobe Sound,"Staffing, Baltimore Ravens",Sports,True,M,1960-04-10 00:00:00
+Druckenmiller;Stanley,6400,Finance & Investments,United States,New York,Hedge funds,Finance & Investments,True,M,1953-06-14 00:00:00
+Jian;Jun,6400,Healthcare,China,Beijing,Biomedical products,Healthcare,True,F,1963-11-01 00:00:00
+Kuzmichev;Alexei,6400,Energy,France,Paris,"Oil, banking, telecom",Energy,True,M,1962-10-15 00:00:00
+Sarmiento;Luis Carlos,6400,Finance & Investments,Colombia,Bogota,Banking,Finance & Investments,True,M,1933-01-27 00:00:00
+Washington;Dennis,6400,Logistics,United States,Missoula,"Construction, mining",Logistics,True,M,1934-07-27 00:00:00
+Bamford;Anthony,6300,Construction & Engineering,United Kingdom,Gloucestershire,Construction equipment,Construction & Engineering,False,M,1945-10-23 00:00:00
+Gao;Jifan,6300,Energy,China,Changzhou,Solar equipment,Energy,True,M,1965-01-01 00:00:00
+Grayken;John,6300,Finance & Investments,United Kingdom,London,Private equity,Finance & Investments,True,M,1956-06-01 00:00:00
+Merieux;Alain,6300,Healthcare,France,Lyon,Pharmaceuticals,Healthcare,False,M,1938-01-01 00:00:00
+Wang;Yusuo,6300,Energy,China,Langfang,Natural gas distribution,Energy,True,M,1964-03-11 00:00:00
+Wertheimer;Stef,6300,Manufacturing,Israel,Tel Aviv,Metalworking tools,Manufacturing,True,M,1926-07-16 00:00:00
+Aramburuzabala;Maria Asuncion,6200,Food & Beverage,Mexico,Mexico City,"Beer, investments",Food & Beverage,False,F,1963-05-02 00:00:00
+Douglas;Gustaf,6200,Diversified,Sweden,Stockholm,Investments,Diversified,True,M,1938-03-03 00:00:00
+Goldschmeding;Frits,6200,Service,Netherlands,Amsterdam,Temp agency,Service,True,M,1933-08-02 00:00:00
+Lin;Muqin,6200,Food & Beverage,China,Shenzhen,Beverages,Food & Beverage,True,M,1964-01-01 00:00:00
+Ruan;Liping,6200,Manufacturing,China,Ningbo,Power strips,Manufacturing,True,M,1964-01-01 00:00:00
+Ruan;Xueping,6200,Manufacturing,China,Ningbo,Power strip,Manufacturing,True,M,1972-01-01 00:00:00
+Solowow;Michal,6200,Finance & Investments,Poland,Kielce,Investments,Finance & Investments,True,M,1962-07-11 00:00:00
+Adenuga;Mike,6100,Diversified,Nigeria,Lagos,"Telecom, oil",Diversified,True,M,1953-04-29 00:00:00
+Gores;Tom,6100,Finance & Investments,United States,Beverly Hills,Private equity,Finance & Investments,True,M,1964-07-31 00:00:00
+Herz;Michael,6100,Fashion & Retail,Germany,Hamburg,Coffee,Fashion & Retail,False,M,1943-09-28 00:00:00
+Herz;Wolfgang,6100,Fashion & Retail,Germany,Hamburg,Coffee,Fashion & Retail,False,M,1951-01-01 00:00:00
+Abramov;Alexander,6000,Metals & Mining,Russia,Moscow,"Steel, mining",Metals & Mining,True,M,1959-02-20 00:00:00
+Bluhm;Neil,6000,Real Estate,United States,Chicago,Real estate,Real Estate,True,M,1938-01-12 00:00:00
+Bouchard;Alain,6000,Fashion & Retail,Canada,Montreal,Convinience stores,Fashion & Retail,True,M,1949-02-18 00:00:00
+Chaudhry;Jay,6000,Technology,United States,Reno,Security software,Technology,True,M,1959-08-26 00:00:00
+Damani;Gopikishan,6000,Fashion & Retail,India,Mumbai,"Retail, investments",Fashion & Retail,True,M,1958-01-01 00:00:00
+Jiaravanon;Sumet,6000,Diversified,Thailand,Bangkok,Diversified,Diversified,False,M,1934-11-02 00:00:00
+Lowy;Frank,6000,Finance & Investments,Israel,Tel Aviv,Investments,Finance & Investments,True,M,1930-10-22 00:00:00
+Milken;Michael,6000,Finance & Investments,United States,Los Angeles,Investments,Finance & Investments,True,M,1946-07-04 00:00:00
+Steward;David,6000,Technology,United States,St. Louis,IT provider,Technology,True,M,1951-07-02 00:00:00
+Wexner;Les,6000,Fashion & Retail,United States,New Albany,Retail,Fashion & Retail,True,M,1937-09-08 00:00:00
+Cai;Kui,5900,Real Estate,China,Chengdu,Real estate,Real Estate,True,M,1963-01-01 00:00:00
+Chiaravanont;Jaran,5900,Diversified,Thailand,Bangkok,Diversified,Diversified,False,M,1930-04-01 00:00:00
+Halvorsen;Andreas,5900,Finance & Investments,United States,Darien,Hedge funds,Finance & Investments,True,M,1961-04-23 00:00:00
+Ressler;Antony,5900,Finance & Investments,United States,Los Angeles,Finance,Finance & Investments,True,M,1960-10-12 00:00:00
+Tsai;Eng-meng,5900,Food & Beverage,China,Shanghai,"Food, beverages",Food & Beverage,False,M,1957-01-15 00:00:00
+Harris;Josh,5800,Finance & Investments,United States,Miami,Private equity,Finance & Investments,True,M,1964-12-29 00:00:00
+Louis-Hansen;Niels Peter,5800,Healthcare,Denmark,Humlebaek,Medical devices,Healthcare,False,M,1947-10-25 00:00:00
+Soon-Shiong;Patrick,5800,Healthcare,United States,Los Angeles,Pharmaceuticals,Healthcare,True,M,1952-07-29 00:00:00
+Akhmetov;Rinat,5700,Metals & Mining,Ukraine,Donetsk,"Steel, coal",Metals & Mining,True,M,1966-09-21 00:00:00
+Brown;John,5700,Healthcare,United States,Atlanta,Medical equipment,Healthcare,True,M,1934-09-15 00:00:00
+Irving;Arthur,5700,Energy,Canada,Saint John,Oil,Energy,False,M,1930-01-01 00:00:00
+Lundberg;Fredrik,5700,Real Estate,Sweden,Stockholm,"Real estate, investments",Real Estate,False,M,1951-08-05 00:00:00
+Schmidheiny;Thomas,5700,Construction & Engineering,Switzerland,Jona,Cement,Construction & Engineering,False,M,1945-12-17 00:00:00
+Ziff;Daniel,5700,Finance & Investments,United States,New York,Investments,Finance & Investments,False,M,1971-11-02 00:00:00
+Ziff;Dirk,5700,Finance & Investments,United States,North Palm Beach,Investments,Finance & Investments,False,M,1964-04-01 00:00:00
+Ziff;Robert,5700,Finance & Investments,United States,New York,Investments,Finance & Investments,False,M,1966-08-12 00:00:00
+Hunt;Ray Lee,5600,Energy,United States,Dallas,"Oil, real estate",Energy,False,M,1943-04-06 00:00:00
+Lai;Meisong,5600,Logistics,China,Shanghai,Package delivery,Logistics,True,M,1970-12-01 00:00:00
+Lal;Vikram,5600,Automotive,India,Delhi,Motorcycles,Automotive,False,M,1942-03-05 00:00:00
+Langone;Ken,5600,Finance & Investments,United States,Sands Point,Investments,Finance & Investments,True,M,1935-09-16 00:00:00
+Li;Ge,5600,Healthcare,China,Shanghai,Pharmaceutical ingredients,Healthcare,True,M,1967-01-01 00:00:00
+Pritzker;Karen,5600,Finance & Investments,United States,Branford,"Hotels, investments",Finance & Investments,False,F,1958-01-07 00:00:00
+Rowling;Robert,5600,Service,United States,Dallas,"Hotels, investments",Service,False,M,1953-09-26 00:00:00
+Sagi;Teddy,5600,Gambling & Casinos,Israel,Tel Aviv,Gambling software,Gambling & Casinos,True,M,1971-11-01 00:00:00
+Seo;Jung-jin,5600,Healthcare,South Korea,Seoul,Biotech,Healthcare,True,M,1957-10-23 00:00:00
+Wu;Jianshu,5600,Automotive,China,Ningbo,Auto parts,Automotive,True,M,1964-01-01 00:00:00
+Arison;Micky,5500,Service,United States,Bal Harbour,Carnival Cruises,Service,False,M,1949-06-29 00:00:00
+Chambers;James,5500,Media & Entertainment,United States,Palisades,"Media, automotive",Media & Entertainment,False,M,1957-04-12 00:00:00
+Collison;John,5500,Technology,United States,San Francisco,Payments software,Technology,True,M,1990-08-06 00:00:00
+Collison;Patrick,5500,Technology,United States,San Francisco,Payment software,Technology,True,M,1988-09-09 00:00:00
+Emmerson;Archie Aldis,5500,Manufacturing,United States,Redding,"Timberland, lumber mills",Manufacturing,True,M,2029-04-10 00:00:00
+Ferrari;Piero,5500,Automotive,Italy,Modena,Automobiles,Automotive,False,M,1945-05-22 00:00:00
+Friedkin;Dan,5500,Automotive,United States,Houston,Toyota dealerships,Automotive,False,M,1965-02-27 00:00:00
+Irving;James,5500,Diversified,Canada,Saint John,Diversified,Diversified,False,M,1928-03-20 00:00:00
+Jiang;Weiping,5500,Manufacturing,China,Chengdu,Chemicals,Manufacturing,True,M,1955-03-01 00:00:00
+Marguerre;Wolfgang,5500,Healthcare,Germany,Heidelberg,Pharmaceuticals,Healthcare,True,M,1941-06-04 00:00:00
+Merckle;Ludwig,5500,Finance & Investments,Germany,Ulm,Pharmaceuticals,Finance & Investments,False,M,1965-01-01 00:00:00
+Rales;Mitchell,5500,Manufacturing,United States,Potomac,"Manufacturing, investments",Manufacturing,True,M,1956-08-21 00:00:00
+Rayner;Katharine,5500,Media & Entertainment,United States,East Hampton,"Media, automotive",Media & Entertainment,False,F,1945-01-12 00:00:00
+Singer;Paul,5500,Finance & Investments,United States,New York,Hedge funds,Finance & Investments,True,M,1944-08-22 00:00:00
+Stevanato;Sergio,5500,Healthcare,Italy,Venice,Medical packaging,Healthcare,True,M,1943-03-20 00:00:00
+Taylor;Margaretta,5500,Media & Entertainment,United States,Southampton,"Media, automotive",Media & Entertainment,False,F,1942-04-15 00:00:00
+White;Richard,5500,Technology,Australia,Sydney,Software,Technology,True,M,1955-04-01 00:00:00
+Zhao;Yan,5500,Diversified,China,Beijing,Biotech,Diversified,True,F,1967-01-01 00:00:00
+Bertelli;Patrizio,5400,Fashion & Retail,Italy,Milan,Luxury goods,Fashion & Retail,True,M,1946-01-01 00:00:00
+Choksi;Mahendra,5400,Manufacturing,India,Mumbai,Paints,Manufacturing,False,M,1941-04-19 00:00:00
+Ishbia;Mat,5400,Finance & Investments,United States,Bloomfield Hills,Mortgage lender,Finance & Investments,False,M,1980-01-06 00:00:00
+Koguan;Leo,5400,Technology,Singapore,Singapore,IT provider,Technology,True,M,1955-02-15 00:00:00
+Miao;Hangen,5400,Diversified,China,Suzhou,"Textiles, petrochemicals",Diversified,True,M,1965-01-01 00:00:00
+Pieper;Michael,5400,Manufacturing,Switzerland,Lucerne,Kitchen appliances,Manufacturing,True,M,1946-02-05 00:00:00
+Prada;Miuccia,5400,Fashion & Retail,Italy,Milan,Luxury goods,Fashion & Retail,False,F,1949-05-10 00:00:00
+Reimann;Wolfgang,5400,Fashion & Retail,Germany,Passau,Consumer goods,Fashion & Retail,False,M,1952-10-04 00:00:00
+Reimann-Andersen;Matthias,5400,Fashion & Retail,Germany,Munich,Consumer goods,Fashion & Retail,False,M,1965-03-30 00:00:00
+Reimann-Andersen;Stefan,5400,Fashion & Retail,Austria,Vienna,Consumer goods,Fashion & Retail,False,M,1963-07-13 00:00:00
+Reimann-Haas;Renate,5400,Fashion & Retail,Austria,Vienna,Consumer goods,Fashion & Retail,False,F,1951-10-08 00:00:00
+Boehly;Todd,5300,Finance & Investments,United States,Darien,Finance,Finance & Investments,True,M,1973-09-20 00:00:00
+Caruso;Rick,5300,Real Estate,United States,Los Angeles,Real estate,Real Estate,True,M,1959-01-07 00:00:00
+Erdemoglu;Ibrahim,5300,Manufacturing,Turkey,Istanbul,Carpet,Manufacturing,True,M,1962-09-26 00:00:00
+Johnson;Elizabeth,5300,Finance & Investments,United States,Boston,Fidelity,Finance & Investments,False,F,1963-05-07 00:00:00
+Leone;Douglas,5300,Finance & Investments,United States,Atherton,Venture capital,Finance & Investments,True,M,1957-07-04 00:00:00
+Pangestu;Prajogo,5300,Diversified,Indonesia,Jakarta,Petrochemicals,Diversified,False,M,1944-05-13 00:00:00
+Pritzker;Thomas,5300,Finance & Investments,United States,Chicago,"Hotels, investments",Finance & Investments,False,M,1950-06-06 00:00:00
+Resnick;Lynda,5300,Food & Beverage,United States,Beverly Hills,Agriculture,Food & Beverage,True,F,1943-01-02 00:00:00
+Resnick;Stewart,5300,Food & Beverage,United States,Beverly Hills,Agriculture,Food & Beverage,True,M,1936-12-24 00:00:00
+Rollins;Gary,5300,Service,United States,Atlanta,Pest control,Service,False,M,1944-08-30 00:00:00
+Walter;Mark,5300,Finance & Investments,United States,Chicago,"Finance, asset management",Finance & Investments,True,M,1960-05-22 00:00:00
+Wanek;Ronald,5300,Manufacturing,United States,Saint Petersburg,Furniture,Manufacturing,True,M,1941-05-19 00:00:00
+Wesjohann;Erich,5300,Food & Beverage,Germany,Visbek,Poultry genetics,Food & Beverage,True,M,1945-06-02 00:00:00
+Yusuff Ali;M.A.,5300,Fashion & Retail,United Arab Emirates,Abu Dhabi,Retail,Fashion & Retail,True,M,1955-11-15 00:00:00
