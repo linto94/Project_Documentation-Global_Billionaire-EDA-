@@ -50,21 +50,21 @@ The dataset contains detailed information on the world's billionaires, focusing 
       ) score_table
       WHERE Zscore > 1.96 OR Zscore < -1.96;
 
--- Remove outliers from the age and birth year columns
-UPDATE demographics_info
-SET age = 95,
-    birthYear = 1929
-WHERE age = -5 AND birthYear = 2029;
-
-UPDATE demographics_info
-SET age = 96,
-    birthYear = 1928
-WHERE age = -4 AND birthYear = 2028;
-
--- Verify results
-SELECT *
-FROM demographics_info
-WHERE age = -5 OR age = -4;
+      -- Remove outliers from the age and birth year columns
+      UPDATE demographics_info
+      SET age = 95,
+          birthYear = 1929
+      WHERE age = -5 AND birthYear = 2029;
+      
+      UPDATE demographics_info
+      SET age = 96,
+          birthYear = 1928
+      WHERE age = -4 AND birthYear = 2028;
+      
+      -- Verify results
+      SELECT *
+      FROM demographics_info
+      WHERE age = -5 OR age = -4;
 
 
 
