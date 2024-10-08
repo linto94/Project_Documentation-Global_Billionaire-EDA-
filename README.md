@@ -13,7 +13,7 @@ The dataset contains detailed information on the world's billionaires, focusing 
  * **life_expectancy_country**: Average life expectancy in the country.
  * **tax_revenue_country, total_tax_rate_country**: Tax revenue and total tax rate in the billionaire's country.
  * **population_country**: Population of the country.
- * **tax_rate classiification** - Grouping of tax rate for country into high and low.
+ * **tax_rate classiification** - Classification of tax rate for country into high and low.
  * **young_selfmade** - Billionaires that are young based on the threshold defined and are selfmade.
 
 ## Data Processing 
@@ -67,6 +67,8 @@ The dataset contains detailed information on the world's billionaires, focusing 
       WHERE age = -5 OR age = -4;
 
 
+2. **Data Transformation**
+   
 
 
 
