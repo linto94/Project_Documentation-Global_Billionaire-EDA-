@@ -365,8 +365,8 @@ The dataset contains detailed information on the world's billionaires, focusing 
          FROM billionaire_data
          GROUP BY taxrate_classification;
 
-   
-   
+## Conclusion 
+In summary, The methodology for extracting insights from the data utilized various statistical measures. Z-scores, along with skewness and kurtosis, were employed to detect outliers, with the Z-score calculated using SQL, and the latter two measures implemented in Excel. Correlation analysis was conducted to explore relationships between variables in Excel. Descriptive statistics and aggregations were applied to identify patterns and insights within the data. Additionally, several visualizations were created with Tableau and Excel, including scatter plots to illustrate relationships, histograms and box plots for distribution analysis, and bar charts to compare different categorical variables, enhancing the communication of insights.
    
 
 
