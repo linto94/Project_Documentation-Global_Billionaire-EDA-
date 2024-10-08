@@ -310,9 +310,49 @@ The dataset contains detailed information on the world's billionaires, focusing 
          FROM billionaire_data
          WHERE industries = 'Fashion & Retail'
          GROUP BY selfMade, industries;
+      
+   4. **Geography**
+      * Which countries highest concentration of billionaires?
+         ```sql
+         -- Count the number of billionaires in each country and display the top 10
+         SELECT country, COUNT(*) AS Billionaire_Count
+         FROM billionaire_data
+         GROUP BY country
+         ORDER BY Billionaire_Count DESC
+         LIMIT 10;
 
-
-
+      * How do economic factors (GDP, CPI, tax revenue, total tax rate, population) differ in countries with high concentrations of billionaires from does with lower concentrations?
+         ```sql
+         -- Calculate average economic indicators for the top 10 countries with the most billionaires
+         SELECT 
+             AVG(life_expectancy_country) AS Avg_Life_Expectancy,
+             AVG(cpi_country) AS Avg_CPI,
+             AVG(gdp_country) AS Avg_GDP,
+             AVG(tax_revenue_country_country) AS Avg_Tax_Revenue,
+             AVG(total_tax_rate_country) AS Avg_Total_Tax_Rate,
+             AVG(population_country) AS Avg_Population
+         FROM billionaire_data
+         WHERE country IN ('United States', 'China', 'United Kingdom', 
+                           'Germany', 'India', 'Switzerland', 'Russia',
+                           'France', 'Australia', 'Italy');
+         
+         -- Calculate average economic indicators for the top 10 countries with the least billionaires
+         SELECT 
+             AVG(life_expectancy_country) AS Avg_Life_Expectancy,
+             AVG(cpi_country) AS Avg_CPI,
+             AVG(gdp_country) AS Avg_GDP,
+             AVG(tax_revenue_country_country) AS Avg_Tax_Revenue,
+             AVG(total_tax_rate_country) AS Avg_Total_Tax_Rate,
+             AVG(population_country) AS Avg_Population
+         FROM billionaire_data
+         WHERE country IN ('Chile', 'Colombia', 'Egypt', 
+                           'Malaysia', 'Netherlands', 'New Zealand', 'Norway',
+                           'Poland', 'Turkey', 'Ukraine');
+   
+   
+   
+   
+   
 
 
 
