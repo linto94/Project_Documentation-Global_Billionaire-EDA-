@@ -18,9 +18,7 @@ The dataset contains detailed information on the world's billionaires, focusing 
 
 ## Data Processing 
 1. **Data Cleaning**
-   A. Inconsistency: Wrong spelling was checked for in the names of billionaires and corrected to the right value
-   
-   /*Checking and Correcting Errors in Names*/
+   1. Inconsistency: Wrong spelling was checked for in the names of billionaires and corrected to the right value
       ```sql
       -- Select records with first names starting with "Fran"
       SELECT * 
