@@ -140,6 +140,30 @@ The dataset contains detailed information on the world's billionaires, focusing 
              WHEN MONTH(birthDate) = 12 THEN 'December'
              ELSE 'Unknown'
          END;
+   
+         ```sql
+         -- Add a new column to classify young self-made billionaires
+         ALTER TABLE billionaire_data
+         ADD young_selfmade VARCHAR(255);
+         
+         UPDATE billionaire_data
+         SET 
+             young_selfmade = CASE
+                 WHEN selfMade = 'True' AND age <= 50 THEN 'Yes'
+                 ELSE 'No' 
+             END;
+         
+         -- Add a new column to classify tax rates into High or Low
+         ALTER TABLE billionaire_data
+         ADD taxrate_classification VARCHAR(255);
+         
+         UPDATE billionaire_data
+         SET 
+             taxrate_classification = CASE 
+                 WHEN total_tax_rate_country >= 43 THEN 'High' 
+                 ELSE 'Low' 
+             END;
+
 
    5. **Join** - Performed Inner Joint to combine the demographics_data with the economic_indcator_data  to a single dataset.
          ```sql
@@ -176,7 +200,32 @@ The dataset contains detailed information on the world's billionaires, focusing 
          JOIN billionaire.economic_indicators ei
          ON di.country = ei.country;
 
+## Guiding Questions (Analysis)
+1. **Wealth and Industry**
+    * Which industries dominate among billionaires?
+         ```sql
+         -- Count the number of billionaires in each industry
+         SELECT industries, COUNT(*) AS Billionaire_Count
+         FROM billionaire_data
+         GROUP BY industries
+         ORDER BY Billionaire_Count DESC;
+         
+    * How does the total wealth of billionaires differ across industries and regions?
+         ```sql
+         -- Calculate total wealth of billionaires by industry
+         SELECT industries, SUM(finalWorth) AS Billionaire_Wealth
+         FROM billionaire_data
+         GROUP BY industries
+         ORDER BY Billionaire_Wealth DESC;
+         
+         -- Calculate total wealth of billionaires by country, limited to the top 10
+         SELECT country, SUM(finalWorth) AS Billionaire_Wealth
+         FROM billionaire_data
+         GROUP BY country
+         ORDER BY Billionaire_Wealth DESC
+         LIMIT 10;
 
+    * Are there emerging industries creating new billionaires, and what is their impact on wealth distribution?
 
 
 
