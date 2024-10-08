@@ -2,7 +2,7 @@
 
 ## Data Preparation
 The dataset contains detailed information on the world's billionaires, focusing on their wealth, demographics, industry involvement, and country-specific economic factors. It includes the following key attributes:
- * **finalWorth**: Net worth of the individual in millions.
+ * **finalWorth**: Net worth of the individual in billions.
  * **lastName, age, firstName, birthYear, birthMonth, birthDay, gender**: Information about the individual's identity and age.
  * **self-made**: Whether the billionaire is self-made or inherited their wealth (True/False).
  * **Industries**: The primary industry in which the billionaire operates (e.g., technology, finance).
