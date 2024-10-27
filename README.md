@@ -73,9 +73,14 @@ The dataset contains detailed information on the world's billionaires, focusing 
    ![19](https://github.com/user-attachments/assets/6480189e-24cf-450c-aebe-05365f13d1ae)
    
    ![19a](https://github.com/user-attachments/assets/cdabeec2-4ef3-4551-a22c-a7e7c961e758)
+   
+   ![boxplot](https://github.com/user-attachments/assets/71835d1f-d19b-450c-88e6-4d830a7e0c8a)
+   
+   ![histogram](https://github.com/user-attachments/assets/c08f0c47-3196-4195-9105-e735bcde7554)
 
 
-2. **Data Transformation**
+
+3. **Data Transformation**
    1. **Remove unwanted columns not needed for the analysis**
       ```sql
       -- Delete the category variable from the table as it is the same as industries
