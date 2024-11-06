@@ -65,6 +65,8 @@ The dataset contains detailed information on the world's billionaires, focusing 
       SELECT *
       FROM demographics_info
       WHERE age = -5 OR age = -4;
+
+   Boxplot and Histogram to show outliers and before outliers where removed
       
    ![18](https://github.com/user-attachments/assets/55d04d3a-6386-4237-8079-38fc56d2fc4c)
    
@@ -77,6 +79,9 @@ The dataset contains detailed information on the world's billionaires, focusing 
    ![boxplot](https://github.com/user-attachments/assets/71835d1f-d19b-450c-88e6-4d830a7e0c8a)
    
    ![histogram](https://github.com/user-attachments/assets/c08f0c47-3196-4195-9105-e735bcde7554)
+
+   Boxplot and Histogram to after outliers has been removed
+   
 
 
 
