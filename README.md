@@ -81,6 +81,10 @@ The dataset contains detailed information on the world's billionaires, focusing 
    ![histogram](https://github.com/user-attachments/assets/c08f0c47-3196-4195-9105-e735bcde7554)
 
    Boxplot and Histogram to after outliers has been removed
+   ![BoxPLot](https://github.com/user-attachments/assets/dc77d131-e446-4c40-9de2-629183c6c755)
+   
+   ![Historgram](https://github.com/user-attachments/assets/3664fb1f-85a2-4056-85dd-6724a13f283e)
+   
    
 
 
